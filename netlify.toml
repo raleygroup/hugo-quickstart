@@ -15,3 +15,9 @@
 
   [plugins.inputs]
     enable = false
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  cache-control = '''
+  max-age=30'''
